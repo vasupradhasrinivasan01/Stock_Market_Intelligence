@@ -1,0 +1,32 @@
+{
+  "start_date": "2025-05-31",
+  "end_date_exclusive": "2026-10-14",
+  "stocks": {
+    "AAPL": {
+      "success": true,
+      "rows": 344
+    },
+    "MSFT": {
+      "success": true,
+      "rows": 344
+    },
+    "NVDA": {
+      "success": true,
+      "rows": 344
+    },
+    "AMZN": {
+      "success": true,
+      "rows": 344
+    },
+    "GOOGL": {
+      "success": true,
+      "rows": 344
+    }
+  },
+  "total_rows": 1720,
+  "output_files": [
+    "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\processed\\market_indicators.csv",
+    "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\processed\\market_indicators.json",
+    "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\processed\\market_indicators.xlsx"
+  ]
+}

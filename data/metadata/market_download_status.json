@@ -1,0 +1,39 @@
+{
+  "start_date": "2025-05-31",
+  "end_date_inclusive": "2026-10-13",
+  "indicators": {
+    "sp500": {
+      "ticker": "^GSPC",
+      "success": true,
+      "rows": 344,
+      "file": "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\raw\\market_indicators\\sp500.csv"
+    },
+    "nasdaq_composite": {
+      "ticker": "^IXIC",
+      "success": true,
+      "rows": 344,
+      "file": "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\raw\\market_indicators\\nasdaq_composite.csv"
+    },
+    "vix": {
+      "ticker": "^VIX",
+      "success": true,
+      "rows": 346,
+      "file": "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\raw\\market_indicators\\vix.csv"
+    },
+    "us_10y_treasury_yield_proxy": {
+      "ticker": "^TNX",
+      "success": true,
+      "rows": 344,
+      "file": "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\raw\\market_indicators\\us_10y_treasury_yield_proxy.csv"
+    },
+    "us_dollar_index": {
+      "ticker": "DX-Y.NYB",
+      "success": true,
+      "rows": 344,
+      "file": "C:\\Users\\vasup\\PycharmProjects\\Stock_Market_Intelligence\\data\\raw\\market_indicators\\us_dollar_index.csv"
+    }
+  },
+  "successful_indicators": 5,
+  "total_indicators": 5,
+  "combined_rows": 1722
+}

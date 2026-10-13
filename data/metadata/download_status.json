@@ -1,0 +1,70 @@
+{
+  "provider": "Yahoo Finance via yfinance",
+  "run_utc": "2026-10-13T13:09:26.463694+00:00",
+  "calendar_days": 500,
+  "start_date_inclusive": "2025-05-31",
+  "end_date_inclusive": "2026-10-13",
+  "requested_symbols": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "GOOGL"
+  ],
+  "results": [
+    {
+      "symbol": "AAPL",
+      "status": "success",
+      "rows": 343,
+      "first_date": "2025-06-02",
+      "last_date": "2026-10-12"
+    },
+    {
+      "symbol": "MSFT",
+      "status": "success",
+      "rows": 343,
+      "first_date": "2025-06-02",
+      "last_date": "2026-10-12"
+    },
+    {
+      "symbol": "NVDA",
+      "status": "success",
+      "rows": 343,
+      "first_date": "2025-06-02",
+      "last_date": "2026-10-12"
+    },
+    {
+      "symbol": "AMZN",
+      "status": "success",
+      "rows": 343,
+      "first_date": "2025-06-02",
+      "last_date": "2026-10-12"
+    },
+    {
+      "symbol": "GOOGL",
+      "status": "success",
+      "rows": 343,
+      "first_date": "2025-06-02",
+      "last_date": "2026-10-12"
+    }
+  ],
+  "combined_outputs_updated": true,
+  "combined_rows": 1715,
+  "downloaded_symbols": [
+    "AAPL",
+    "AMZN",
+    "GOOGL",
+    "MSFT",
+    "NVDA"
+  ],
+  "outputs": [
+    "data/raw/{SYMBOL}.csv",
+    "data/processed/{SYMBOL}.csv",
+    "data/processed/{SYMBOL}.json",
+    "data/processed/all_stocks_500_days.csv",
+    "data/processed/all_stocks_500_days.json",
+    "data/processed/all_stocks_500_days.xlsx",
+    "data/features/stock_features_500_days.csv",
+    "data/features/stock_features_500_days.json"
+  ]
+}
